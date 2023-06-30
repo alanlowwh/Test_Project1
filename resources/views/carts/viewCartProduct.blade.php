@@ -75,6 +75,7 @@
         function confirmEdit(variationId, quantity) {
             // Redirect to the /edit-cart-qty route with the updated variationId and quantity
             window.location.href = "/edit-cart-qty?variationId=" + variationId + "&quantity=" + quantity;
+            window.location.href = "/edit-cart-qty?variationId=" + variationId + "&quantity=" + quantity;
         }
 
 
